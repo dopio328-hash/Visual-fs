@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "aimassist",
+  "version": "1.0.1",
+  "name": "Aim Assist Menu",
+  "description": "Меню с Aim Assist, Hitbox и ESP по правому Shift",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.aimassist.AimAssistMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
